@@ -3328,7 +3328,6 @@ connection upgrade headers similarly to websocket.
 When Docker daemon detects the `Upgrade` header, it switches its status code
 from **200 OK** to **101 UPGRADED** and resends the same headers.
 
-
 ## 3.3 CORS Requests
 
 To set cross origin requests to the remote api please give values to
